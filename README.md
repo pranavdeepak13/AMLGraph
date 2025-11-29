@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project developed an explainable AI system for detecting money laundering in financial transaction networks. The system uses Graph Attention Networks (GAT) to achieve high detection performance (F1 0.87) while generating human-interpretable explanations for each flagged transaction. This addresses a critical gap in financial ML systems where high accuracy models often act as "black boxes" that can't explain their decisions to regulators.
+This project developed an explainable AI system for detecting money laundering in financial transaction networks. The system uses Graph Attention Networks (GAT) to achieve high detection performance (F1 0.63) while generating human-interpretable explanations for each flagged transaction. This addresses a critical gap in financial ML systems where high accuracy models often act as "black boxes" that can't explain their decisions to regulators.
 
 Traditional AML systems face significant challenges: 95% false positive rates overwhelm compliance teams, black-box decisions fail regulatory scrutiny, investigators can't understand why transactions are flagged, and manual investigation costs are prohibitively high. This project successfully tackled all four problems by combining graph neural networks with an attention-based explanation framework, achieving 46% false positive reduction while maintaining 91% recall and providing 100% explanation coverage.
 
