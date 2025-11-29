@@ -1,0 +1,14 @@
+.env
+data/processed_transactions.csv
+data/Transactions.csv
+data/processed_pattern_transactions.csv
+data/processed_patterns.csv
+data/hourly_activity_analysis.csv
+data/daily_activity_analysis.csv
+data/destination_account_behaviour.csv
+data/insights_summary.pkl
+data/network_metrics.pkl
+data/pattern_detailed_analysis.pkl
+data/Accounts.csv
+data/processed_transactions.csv
+codes/checkpoints/*
